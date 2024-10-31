@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: gray;
+    padding: 10px 20px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    background-color: #03989E;
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(5, 79, 119);
+    min-height: 50px;
+    color: white;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+}
+button:hover {
+    background-color: #03989E;
+    border-color: #03989E;
+}
+.btn-home {
+    padding: 5px 50px;
+}
+.btn-about {
+    padding: 5px 30px;
+}
+.btn-openingHours {
+    padding: 5px 20px;
+}
+.btn-contact {
+    padding: 5px 35px;
+}
+.a-content {
+    color: black;
+    text-decoration: underline;
+}
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    border: solid 1px gray;
+}
+table thead th {
+    background-color: #03989E;
+    color: white;
+}
+table tbody tr:nth-child(even) td {
+    background-color: gray;
+    color: white;
+}
+table tbody tr:hover td {
+    background-color: rgb(5, 79, 119);
+    color: white;
+}
+textarea {
+    margin: 10px;
+}
+.btn-enviar {
+    background-color: #03989E;
+    color: white;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.btn-apagar {
+    background-color: #03989E;
+    color: white;
+    padding: 8px 25px;
+    cursor: pointer;
+}
